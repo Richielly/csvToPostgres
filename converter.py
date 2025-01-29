@@ -1,9 +1,8 @@
 import os
-
 import pandas as pd
 import sqlalchemy
 import configparser
-import psycopg2 # para o PostgreSQL
+import psycopg2  # para o PostgreSQL
 
 
 config = configparser.ConfigParser()
@@ -60,3 +59,4 @@ class Converter():
             return error
         except Exception as error2:
             return error2
+

@@ -7,7 +7,7 @@ from glob import glob
 config = configparser.ConfigParser()
 config.read("config.ini");
 OPTIONS = ['Todos']
-
+mensagem = None
 class Application:
     def __init__(self, master=None):
 
@@ -142,7 +142,7 @@ class Application:
             # mensagem = criar.criar_tabela(self.banco.get(), self.usuario.get(), self.senha.get(), self.opcoes.get(), self.tabela.get())
 
     def criar_tabela(self):
-
+        global mensagem
         config = configparser.ConfigParser()
         config.read("config.ini");
 

@@ -13,11 +13,6 @@ sg.theme('BluePurple')
 
 criar = converter.Converter()
 
-# origem = r"C:\csv_to_postgre\\"
-
-# destino = r"C:\csv_to_postgre\convertido\\"
-# old = r"C:\csv_to_postgre\old\\"
-
 def start():
 
     ativo = True
